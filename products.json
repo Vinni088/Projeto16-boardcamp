@@ -1,0 +1,302 @@
+[
+    {
+      "type": "Sapato feminino",
+      "name": "Sapato de salto alto preto",
+      "price": 199.99,
+      "foto": "https://static.zattini.com.br/produtos/scarpin-vizzano-meia-pata-salto-alto-verniz-boneca/06/E11-3078-006/E11-3078-006_zoom1.jpg?ts=1601458410&ims=544x"
+    },
+    {
+      "type": "Sapato masculino",
+      "name": "Sapato social marrom",
+      "price": 149.99,
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_638848-MLB31090626712_062019-O.webp"
+    },
+    {
+      "type": "Sapato feminino",
+      "name": "Sapatilha vermelha",
+      "price": 79.99,
+      "foto": "https://static.zattini.com.br/produtos/sapatilha-couro-anacapri-matelasse-feminina/16/L47-2165-016/L47-2165-016_zoom1.jpg?ts=1642000622"
+    },
+    {
+      "type": "Sapato masculino",
+      "name": "Tênis esportivo preto",
+      "price": 129.99,
+      "foto": "https://static.netshoes.com.br/produtos/tenis-adidas-retrorun-classic-masculino/06/NQQ-4361-006/NQQ-4361-006_zoom1.jpg?ts=1640288819&ims=544x"
+    },
+    {
+      "type": "Sapato feminino",
+      "name": "Bota de couro marrom",
+      "price": 219.99,
+      "foto": "https://static.shoestock.com.br/produtos/bota-couro-cano-curto-shoestock-salto-alto-feminina/04/O01-1636-004/O01-1636-004_zoom1.jpg?ts=1676025415"
+    },
+    {
+      "type": "Sapato masculino",
+      "name": "Sapato casual azul",
+      "price": 89.99,
+      "foto": "https://img.irroba.com.br/fit-in/600x600/filters:fill(fff):quality(80)/riccally/catalog/tenis/73bd043b-9c1a-4c9b-a7c8-82422ba430e8.jpeg"
+    },
+    {
+      "type": "Sapato feminino",
+      "name": "Sandalia de salto alto",
+      "price": 149.99,
+      "foto": "https://static.netshoes.com.br/produtos/03/J36-0077-203/J36-0077-203_zoom1.jpg"
+    },
+    {
+      "type": "Sapato masculino",
+      "name": "Tênis esportivo branco",
+      "price": 119.99,
+      "foto": "https://static.netshoes.com.br/produtos/tenis-esportivo-leve-conforto-masculino/14/EZJ-0235-014/EZJ-0235-014_zoom1.jpg?ts=1607078980&ims=544x"
+    },
+    {
+      "type": "Sapato feminino",
+      "name": "Sapato social preto",
+      "price": 169.99,
+      "foto": "https://i.shafacdn.net/images/187956-65-auto-auto-KvCXTkxA-hA.jpg"
+    },
+    {
+      "type": "Sapato masculino",
+      "name": "Sapatênis marrom",
+      "price": 99.99,
+      "foto": "https://static.netshoes.com.br/produtos/sapatenis-couro-calvin-klein-masculino/00/D70-2535-000/D70-2535-000_zoom1.jpg?ts=1677761228"
+    },
+    {
+      "type": "Sapato feminino",
+      "name": "Tênis esportivo rosa",
+      "price": 129.99,
+      "foto": "https://scalcados.com.br/wp-content/uploads/2022/03/Tenis-Feminino-Esportivo-Kolosh-Rosa-K8421-4.jpg"
+    },
+    {
+      "type": "Sapato masculino",
+      "name": "Sapato social preto",
+      "price": 189.99,
+      "foto": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/versales/media/uploads/produtos/foto/b2b8cafebaad0sem-titulo-1.jpg"
+    },
+    {
+      "type": "Sapato feminino",
+      "name": "Sapatilha preta",
+      "price": 69.99,
+      "foto": "https://img.elo7.com.br/product/zoom/2518718/sapatilha-feminina-confortavel-preta-nobuck-iaracoutomaison.jpg"
+    },
+    {
+      "type": "Sapato masculino",
+      "name": "Bota de couro marrom",
+      "price": 239.99,
+      "foto": "https://static.netshoes.com.br/produtos/bota-masculina-lancamento-coturno-cano-medio-couro/38/0Q6-0047-138/0Q6-0047-138_zoom1.jpg?ts=1658445277&ims=544x"
+    },
+    {
+      "type": "Sapato feminino",
+      "name": "Sapato de salto alto nude",
+      "price": 189.99,
+      "foto": "https://www.megashopsul.com.br/1860-large_default/sapato-feminino-bege-nude-salto-alto-agulha.jpg"
+    },
+    {
+      "type": "Sapato masculino",
+      "name": "Sapato social marrom",
+      "price": 169.99,
+      "foto": "https://img.lojasrenner.com.br/item/646852350/large/3.jpg"
+    },
+    {
+      "type": "Sapato feminino",
+      "name": "Sandália rasteira dourada",
+      "price": 89.99,
+      "foto": "https://static.netshoes.com.br/produtos/sandalia-rasteira-feminina-couro-amarracao-bico-fino-casual/70/0A6-0073-070/0A6-0073-070_zoom1.jpg?ts=1616689853"
+    },
+    {
+      "type": "Sapato masculino",
+      "name": "Tênis esportivo preto e branco",
+      "price": 139.99,
+      "foto": "https://d87n9o45kphpy.cloudfront.net/Custom/Content/Products/27/01/2701478_tenis-nike-downshifter-12-esportivo-masculino-preto-5183393_l1_638137118154941779.jpg"
+    },
+    {
+      "type": "Sapato feminino",
+      "name": "Sapatilha azul",
+      "price": 79.99,
+      "foto": "https://dumond.vteximg.com.br/arquivos/ids/375876-1000-1000/2001155043_Ampliada1.jpg?v=638018739041470000"
+    },
+    {
+      "type": "Sapato masculino",
+      "name": "Sapato casual marrom",
+      "price": 99.99,
+      "foto": "https://img.irroba.com.br/fit-in/600x600/filters:format(webp):fill(fff):quality(80)/toraoioe/catalog/sapato-casual-marrom-derby-3650-3.jpg"
+    },
+    {
+      "type": "Sapato feminino",
+      "name": "Bota de couro preta",
+      "price": 219.99,
+      "foto": "https://static.zattini.com.br/produtos/bota-feminina-couro-salto-alto-lisa-ziper-estilo-moderna/06/MEE-0137-006/MEE-0137-006_zoom1.jpg?ts=1650584753&ims=544x"
+    },
+    {
+      "type": "Sapato masculino",
+      "name": "Sapato social marrom",
+      "price": 159.99,
+      "foto": "https://static.netshoes.com.br/produtos/sapato-social-masculino-cadarco-conforto-elegante-moderno/38/9D5-0005-138/9D5-0005-138_zoom1.jpg?ts=1645437330&ims=544x"
+    },
+    {
+      "type": "Sapato feminino",
+      "name": "Sapato de salto alto vermelho",
+      "price": 199.99,
+      "foto": "https://img.irroba.com.br/fit-in/650x650/filters:format(webp):fill(fff):quality(80)/gatsconc/catalog/pasta-2022/feminino-adulto/antonietta-4-soho-coral.jpg"
+    },
+    {
+      "type": "Sapato masculino",
+      "name": "Tênis esportivo cinza",
+      "price": 119.99,
+      "foto": "https://ph-cdn3.ecosweb.com.br/imagens01/foto/mkp37/calcado-masculino/tenis-masculino/tenis-adidas-racer-tr21-esportivo-masculino-cinza_2147924_600_1.jpg"
+    },
+    {
+      "type": "Sapato feminino",
+      "name": "Sandália de salto alto preta",
+      "price": 149.99,
+      "foto": "https://static.zattini.com.br/produtos/sandalia-ala-salto-alto-fino-feminina/06/J36-0056-006/J36-0056-006_zoom1.jpg?ts=1660016436"
+    },
+    {
+      "type": "Sapato masculino",
+      "name": "Sapatênis preto",
+      "price": 89.99,
+      "foto": "https://img.irroba.com.br/fit-in/500x500/filters:format(webp):fill(fff):quality(80)/lojalaro/catalog/produtos/cayene/012003-3440/sapatenis-masculino-couro-connect-012003-3440-01.jpg"
+    },
+    {
+      "type": "Sapato feminino",
+      "name": "Tênis esportivo branco e rosa",
+      "price": 129.99,
+      "foto": "https://static.zattini.com.br/produtos/tenis-adidas-puremotion-super-esportivo-feminino-knit-branco/18/FB8-4157-018/FB8-4157-018_zoom1.jpg?ts=1667422074"
+    },
+    {
+      "type": "Sapato masculino",
+      "name": "Sapato social preto",
+      "price": 179.99,
+      "foto": "https://www.louie.com.br/loja/image/cache/data/colecao-2016/sapato-social-derby-bethel-preto-550x550.jpg"
+    },
+    {
+      "type": "Sapato feminino",
+      "name": "Sapatilha floral",
+      "price": 69.99,
+      "foto": "https://static.shoestock.com.br/produtos/sapatilha-shoestock-estampada-feminina/08/O01-1290-008/O01-1290-008_zoom1.jpg?ts=1626360206"
+    },
+    {
+      "type": "Sapato masculino",
+      "name": "Bota de couro preta",
+      "price": 229.99,
+      "foto": "https://cdn.shoppub.io/cdn-cgi/image/w=1000,h=1000,q=80,f=auto/versales/media/uploads/produtos/foto/jqpyckld/dsc_0512.jpg"
+    },
+    {
+      "type": "Sapato feminino",
+      "name": "Sapato de salto alto azul",
+      "price": 189.99,
+      "foto": "https://www.dhresource.com/0x0/f2/albu/g7/M00/C1/48/rBVaSls2x8OAPFEWAAHqHADWVeQ951.jpg"
+    },
+    {
+      "type": "Sapato masculino",
+      "name": "Sapato social preto",
+      "price": 149.99,
+      "foto": "https://images.tcdn.com.br/img/img_prod/822331/sapato_social_democrata_masculino_preto_57_1_20200706143428.jpg"
+    },
+    {
+      "type": "Sapato feminino",
+      "name": "Sandália rasteira preta",
+      "price": 79.99,
+      "foto": "https://static.zattini.com.br/produtos/sandalia-rasteira-feminina-bless-tiras-confortavel-dia-a-dia/06/FYM-0165-006/FYM-0165-006_zoom1.jpg?ts=1641476444&ims=544x"
+    },
+    {
+      "type": "Sapato masculino",
+      "name": "Tênis esportivo vermelho",
+      "price": 129.99,
+      "foto": "https://img.irroba.com.br/fit-in/600x600/filters:fill(fff):quality(80)/schiarel/catalog/products/tenis-masculino/490/490-vermelho/tenis-casual-masculino-feminino-unissex-barato-moda-passeio-esportivo-caminhada-academia-corrida-confortavel-promocao-leve-macio-schiareli-490-vermelho-vermelho-2.jpg"
+    },
+    {
+      "type": "Sapato feminino",
+      "name": "Sapatilha rosa",
+      "price": 69.99,
+      "foto": "https://imgmarketplace.lojasrenner.com.br/20001/3043/7010701169595/7510702102419/0.jpeg"
+    },
+    {
+      "type": "Sapato masculino",
+      "name": "Sapato casual azul",
+      "price": 99.99,
+      "foto": "https://static.netshoes.com.br/produtos/sapato-casual-spazzolato-camurca-ii-masculino/08/CLA-0146-008/CLA-0146-008_zoom1.jpg?ts=1591994148&ims=544x"
+    },
+    {
+      "type": "Sapato feminino",
+      "name": "Bota de couro marrom",
+      "price": 219.99,
+      "foto": "https://dovp37yeeddcw.cloudfront.net/Custom/Content/Products/12/69/1269014_bota-cano-curto-couro-marrom-ambar-85913-013005137421720_l1_637890099316527856.jpg"
+    },
+    {
+      "type": "Sapato masculino",
+      "name": "Sapato social preto",
+      "price": 179.99,
+      "foto": "https://m.media-amazon.com/images/I/413hOfgCPcL._AC_SY400_.jpg"
+    },
+    {
+      "type": "Sapato feminino",
+      "name": "Sapato de salto alto rosa",
+      "price": 199.99,
+      "foto": "https://img.irroba.com.br/fit-in/650x650/filters:format(webp):fill(fff):quality(80)/gatsconc/catalog/pasta-2022/fotos-produtos/antonie-10-verniz-bale.20221025174924.jpg"
+    },
+    {
+      "type": "Sapato masculino",
+      "name": "Tênis esportivo preto",
+      "price": 119.99,
+      "foto": "https://img.irroba.com.br/fit-in/600x600/filters:format(webp):fill(fff):quality(80)/dershoes/catalog/schi-595/tenis-casual-masculino-unissex-barato-moda-passeio-esportivo-caminhada-academia-corrida-confortavel-promocao-leve-macio-schiareli-595-preto-branco-4.jpg"
+    },
+    {
+      "type": "Sapato feminino",
+      "name": "Sapato social azul",
+      "price": 169.99,
+      "foto": "https://http2.mlstatic.com/D_NQ_NP_826553-MLB53486609759_012023-O.webp"
+    },
+    {
+      "type": "Sapato masculino",
+      "name": "Sapatênis marrom",
+      "price": 89.99,
+      "foto": "https://static.dubuy.com.br//produto/multifotos/hd/20230321160210_6586993414_DZ.jpg"
+    },
+    {
+      "type": "Sapato feminino",
+      "name": "Tênis esportivo branco",
+      "price": 129.99,
+      "foto": "https://d87n9o45kphpy.cloudfront.net/Custom/Content/Products/16/59/1659996_tenis-nike-revolution-5-esportivo-feminino-branco-5163508_z1_637578196018341086.jpg"
+    },
+    {
+      "type": "Sapato masculino",
+      "name": "Sapato social casual azul",
+      "price": 189.99,
+      "foto": "https://img.irroba.com.br/fit-in/600x600/filters:format(webp):fill(fff):quality(80)/lojaiden/catalog/sociais-rodrigo/modelo-080/idenshoes-21-11-22-04-a.jpg"
+    },
+    {
+      "type": "Sapato feminino",
+      "name": "Sapatilha preta",
+      "price": 69.99,
+      "foto": "https://www.kompletacalcados.com.br/8449-large_default/sapatilha-feminina-moleca-camurca--preto-50941550.jpg"
+    },
+    {
+      "type": "Sapato masculino",
+      "name": "Bota de couro marrom",
+      "price": 239.99,
+      "foto": "https://cdn.awsli.com.br/600x450/250/250759/produto/218838445/bota-masculina-couro-marrom--1--c2feeg5djt.jpg"
+    },
+    {
+      "type": "Sapato feminino",
+      "name": "Sapato de salto alto nude",
+      "price": 189.99,
+      "foto": "https://i.shafacdn.net/images/297868-65-auto-auto-DU0DyR8Hid0.jpg"
+    },
+    {
+      "type": "Sapato masculino",
+      "name": "Sapato casual marrom",
+      "price": 99.99,
+      "foto": "https://img.irroba.com.br/fit-in/600x600/filters:format(webp):fill(fff):quality(80)/toraoioe/catalog/sapato-casual-marrom-derby-3650-3.jpg"
+    },
+    {
+      "type": "Sapato feminino",
+      "name": "Sandália rasteira dourada",
+      "price": 89.99,
+      "foto": "https://images.tcdn.com.br/img/img_prod/601385/sandalia_rasteira_santa_lolla_dourado_032f_328b_02db_001d_13617_1_3128f1647e387a09909e08178aa6c22a.jpg"
+    },
+    {
+      "type": "Sapato masculino",
+      "name": "Tênis esportivo azul",
+      "price": 139.99,
+      "foto": "https://d87n9o45kphpy.cloudfront.net/Custom/Content/Products/16/19/1619482_tenis-adidas-running-masculino-duramo-sl-tecido-azul-5160240_z1_637472579303392382.jpg"
+    }
+  ]  
