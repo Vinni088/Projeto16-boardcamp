@@ -19,13 +19,16 @@ export async function insertGames(req, res) {
     const {name, image, stockTotal, pricePerDay} = req.body;
 
     try {
-        let jogoExistente = await db.query(` SELECT * FROM games WHERE name = $1 `, [name]);
-        if(jogoExistente) return (res.status(409).send(" Você não pode ser um nome de jogo já existente"));
+        let jogoExistente = await db.query(` SELECT * FROM games WHERE name = $1`, [name]);
+        if(jogoExistente.rows.length > 0) return (res.status(409).send(" Você não pode ser um nome de jogo já existente"));
+        
+        await db.query(`INSERT INTO games (name, image, "stockTotal", "pricePerDay") VALUES ($1, $2, $3, $4);`,
+        [name, image, stockTotal, pricePerDay]);
     } catch (err) {
         res.status(500).send(err.message)
     }
 
 
-    res.status(201).send("Jogo adicionado")
+    res.sendStatus(201);
     /*res.send(`${name}, ${image}, ${stockTotal}, ${pricePerDay}`)*/
 }
