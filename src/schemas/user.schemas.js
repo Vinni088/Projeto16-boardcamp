@@ -1,12 +1,15 @@
 import joi from "joi"
 
-export const signupSchema = joi.object({
+export const insertClientSchema = joi.object({
     name: joi.string().required(),
-    email: joi.string().email().required(),
-    password: joi.string().min(3).required()
+    phone: joi.string().min(10).max(11).required(),
+    cpf: joi.string().min(11).max(11).required(),
+    birthday: joi.date().required()
 });
 
-export const signinSchema = joi.object({
-    email: joi.string().email().required(),
-    password: joi.string().required()
-});
+/*{
+    name: 'João Alfredo',
+    phone: '21998899222',
+    cpf: '01234567890',
+    birthday: '1992-10-25'
+}*/
