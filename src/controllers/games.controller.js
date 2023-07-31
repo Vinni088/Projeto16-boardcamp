@@ -16,9 +16,9 @@ export async function getGames(req, res) {
     string += ` LIMIT ${limit}`;
   }
   if (order && desc === 'true') {
-    string += ` ORDER BY ${order} DESC`
+    string += ` ORDER BY "${order}" DESC`
   } else if (order) {
-    string += ` ORDER BY ${order} ASC`
+    string += ` ORDER BY "${order}" ASC`
   }
   string += `;`
 
@@ -76,14 +76,40 @@ function gerardata() {
 }
 
 export async function getRentals(req, res) {
+    let string = `
+        SELECT 
+            rentals.*, 
+            TO_CHAR(rentals."rentDate", 'YYYY-MM-DD') AS "rentDate", 
+            TO_CHAR(rentals."returnDate", 'YYYY-MM-DD') AS "returnDate",
+            customers.name AS "CustomerName",
+            games.name AS "GameName" 
+        FROM Rentals
+            JOIN customers ON customers.id = rentals."customerId"
+            JOIN games ON games.id = rentals."gameId"
+        `
+        const { gameId, customerId, offset, limit, order, desc } = req.query;
+
+        if (gameId) {
+          string += ` WHERE rentals."gameId" LIKE '${gameId}' `;
+        }
+        if (customerId) {
+            string += ` WHERE rentals."customerId" LIKE '${customerId}' `;
+          }
+        if ( offset ) {
+          string += ` OFFSET ${offset}`;
+        }
+        if ( limit ) {
+          string += ` LIMIT ${limit}`;
+        }
+        if (order && desc === 'true') {
+          string += ` ORDER BY ${order} DESC`
+        } else if (order) {
+          string += ` ORDER BY ${order} ASC`
+        }
+
   try {
-    const rentals = await db.query(`
-        SELECT rentals.id, rentals."customerId", rentals."gameId",
-        TO_CHAR(rentals."rentDate", 'YYYY-MM-DD') AS "rentDate", rentals."daysRented", TO_CHAR(rentals."returnDate", 'YYYY-MM-DD') AS "returnDate",
-        rentals."originalPrice", rentals."delayFee" , customers.name AS "CustomerName", games.name AS "GameName" FROM Rentals
-        JOIN customers ON customers.id = rentals."customerId"
-        JOIN games ON games.id = rentals."gameId";
-        `);
+    const rentals = await db.query(string);
+
     let rentalSend = rentals.rows.map((obj) => ({
       id: obj.id,
       customerId: obj.customerId,

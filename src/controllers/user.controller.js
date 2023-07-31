@@ -17,9 +17,9 @@ export async function getClients(req, res) {
     string += ` LIMIT ${limit}`;
   }
   if (order && desc === 'true') {
-    string += ` ORDER BY ${order} DESC`
+    string += ` ORDER BY "${order}" DESC`
   } else if (order) {
-    string += ` ORDER BY ${order} ASC`
+    string += ` ORDER BY "${order}" ASC`
   }
   /*string += `;`*/
 
