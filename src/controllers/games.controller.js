@@ -1,8 +1,29 @@
 import { db } from "../database/database.connection.js";
 /* Games */
 export async function getGames(req, res) {
+
+  let string = `SELECT * FROM games`;
+
+  const { name, offset, limit, order, desc } = req.query;
+
+  if (name) {
+    string += ` WHERE LOWER(name) LIKE '${name.toLowerCase()}%' `;
+  }
+  if ( offset ) {
+    string += ` OFFSET ${offset}`;
+  }
+  if ( limit ) {
+    string += ` LIMIT ${limit}`;
+  }
+  if (order && desc === 'true') {
+    string += ` ORDER BY ${order} DESC`
+  } else if (order && desc == 'false') {
+    string += ` ORDER BY ${order} ASC`
+  }
+  string += `;`
+  
   try {
-    const games = await db.query(`SELECT * FROM games;`);
+    const games = await db.query(string);
     res.send(games.rows);
   } catch (err) {
     res.status(500).send(err.message);
