@@ -1,16 +1,30 @@
 import { db } from "../database/database.connection.js";
 /* Get Clients */
 export async function getClients(req, res) {
+  let string = 
+  `SELECT customers.*, 
+  TO_CHAR(birthday, 'YYYY-MM-DD') AS birthday
+  FROM customers`
+  const { cpf, offset, limit, order, desc } = req.query;
+
+  if (cpf) {
+    string += ` WHERE cpf LIKE '${cpf}%' `;
+  }
+  if ( offset ) {
+    string += ` OFFSET ${offset}`;
+  }
+  if ( limit ) {
+    string += ` LIMIT ${limit}`;
+  }
+  if (order && desc === 'true') {
+    string += ` ORDER BY ${order} DESC`
+  } else if (order) {
+    string += ` ORDER BY ${order} ASC`
+  }
+  /*string += `;`*/
+
   try {
-    const clientes = await db.query(`
-        SELECT 
-        id,
-        name, 
-        phone,
-        cpf,
-        TO_CHAR(birthday, 'YYYY-MM-DD') AS birthday
-        FROM customers;
-        `);
+    const clientes = await db.query(string);
     res.send(clientes.rows);
   } catch (err) {
     res.status(500).send(err.message);

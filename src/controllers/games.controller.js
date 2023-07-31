@@ -17,11 +17,11 @@ export async function getGames(req, res) {
   }
   if (order && desc === 'true') {
     string += ` ORDER BY ${order} DESC`
-  } else if (order && desc == 'false') {
+  } else if (order) {
     string += ` ORDER BY ${order} ASC`
   }
   string += `;`
-  
+
   try {
     const games = await db.query(string);
     res.send(games.rows);
