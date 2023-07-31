@@ -3,7 +3,7 @@ import joi from "joi"
 export const insertClientSchema = joi.object({
     name: joi.string().required(),
     phone: joi.string().min(10).max(11).required(),
-    cpf: joi.number().min(0).max(9999999999).required(),
+    cpf: joi.number().min(0).max(99999999999).required(),
     birthday: joi.date().required()
 });
 
