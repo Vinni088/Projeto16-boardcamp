@@ -48,7 +48,9 @@ export async function insertClient(req, res) {
 		birthday: '1992-10-25'
     }*/
   const { name, phone, cpf, birthday } = req.body;
-
+  if (cpf.length !== 11) {
+    return res.sendStatus(400);
+  }
   try {
     let cpfExistente = await db.query(
       ` SELECT * FROM customers WHERE cpf = $1`,
@@ -68,22 +70,29 @@ export async function insertClient(req, res) {
   }
   res.status(201).send("Cliente Cadastrado");
 }
+
 /* Update Clients */
 export async function updateClient(req, res) {
   const { id } = req.params;
   const { name, phone, cpf, birthday } = req.body;
 
+  if (cpf.length !== 11) {
+    return res.status(400).send("Cpf invalido");
+  }
+
   try {
-    let cpfExistente = await db.query(
+    let cpfExist = await db.query(
       ` SELECT * FROM customers WHERE cpf = $1`,
       [cpf]
     );
-    if (cpfExistente.rows.length > 0) {
+
+    if (cpfExist.rows.length > 0 && cpfExist.rows[0].id != id ) {
       return res
         .status(409)
         .send(" Você não pode alterar um cpf para um cpf já cadastrado");
     }
 
+    
     await db.query(
       `UPDATE customers SET name=$1, phone=$2, cpf=$3, birthday=$4 WHERE id=$5;`,
       [name, phone, cpf, birthday, id]
